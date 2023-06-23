@@ -1,5 +1,5 @@
 {
-  "name": "your-package-name",
+  "name": "testnpm",
   "version": "1.0.0",
   "description": "A short description about your package",
   "main": "index.js",
@@ -17,9 +17,9 @@
   "author": "Your Name <yourname@example.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/yourusername/your-package-name/issues"
+    "url": "https://github.com/lokesh755/testnpm/issues"
   },
-  "homepage": "https://github.com/yourusername/your-package-name#readme",
+  "homepage": "https://github.com/lokesh755/testnpm#readme",
   "dependencies": {
   },
   "devDependencies": {

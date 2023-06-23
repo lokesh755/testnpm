@@ -19,8 +19,6 @@ jobs:
           # Defaults to the user or organization that owns the workflow file
           scope: '@lokesh755'
       - run: npm install
-      - name: Configure .npmrc
-        run: echo registry=https://npm.pkg.github.com/lokesh755 >> .npmrc
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
